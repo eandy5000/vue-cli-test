@@ -2,6 +2,13 @@
 
 > A Vue.js project
 
+This is my first attempt to use vue-cli, so I'm testing the features.
+
+also added an express server
+for basic production 
+npm run dev then
+node server.js
+
 ## Build Setup
 
 ``` bash

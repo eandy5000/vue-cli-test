@@ -16,7 +16,3 @@ app.use(express.static(Path.join(__dirname, 'dist')))
 app.listen(app.get('port'), function () {
   console.log(`listening on port: ${app.get('port')}`)
 })
-
-
-
-
