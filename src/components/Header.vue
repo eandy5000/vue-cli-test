@@ -4,6 +4,7 @@
         <router-link :to="{path: 'Hello'}">Home</router-link>
         <router-link :to="{path: 'Contact'}">Contact</router-link>
         <router-link :to="{path: 'About'}">About</router-link>
+        {{msg}}
         <hr/>
     </div>
 </template>

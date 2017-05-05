@@ -1,13 +1,18 @@
 <template>
   <div class="hello">
 <h1>Main content</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, suscipit sequi nam consequatur, odio voluptatem saepe hic a asperiores nobis perspiciatis ratione minus corporis tempore consectetur, rem fugiat aspernatur odit!</p>
+<p>{{test}} Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, suscipit sequi nam consequatur, odio voluptatem saepe hic a asperiores nobis perspiciatis ratione minus corporis tempore consectetur, rem fugiat aspernatur odit!</p>
 </div>
 </template>
 
 <script>
 export default {
-  name: 'hello'
+  name: 'hello',
+  computed: {
+    test () {
+      return this.$store.state.test
+    }
+  }
 }
 </script>
 
