@@ -1,13 +1,21 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <header-tag></header-tag>
     <router-view></router-view>
+    <footer-tag></footer-tag>
   </div>
 </template>
 
 <script>
+import HeaderTag from './components/Header.vue'
+import FooterTag from './components/Footer.vue'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    HeaderTag,
+    FooterTag
+  }
 }
 </script>
 
