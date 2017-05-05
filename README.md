@@ -4,6 +4,8 @@
 
 This is my first attempt to use vue-cli, so I'm testing the features.
 
+added Vuex
+
 also added an express server
 for basic production 
 npm run dev then
